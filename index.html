@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emrəren</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #1a1a1a;
+            color: #cccccc;
+            line-height: 1.6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff8800;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            background-color: #333;
+            border: 3px solid #ff8800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #888;
+        }
+
+        .intro {
+            font-size: 1.1em;
+            color: #cccccc;
+            margin-bottom: 40px;
+        }
+
+        .links-section {
+            margin-top: 40px;
+        }
+
+        .links-title {
+            font-size: 1.8em;
+            color: #ff8800;
+            margin-bottom: 30px;
+        }
+
+        .links-table {
+            margin: 0 auto;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        .links-table td {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            padding: 12px 20px;
+            vertical-align: middle;
+        }
+
+        .links-table td:first-child {
+            border-right: none;
+            font-weight: bold;
+            color: #ff8800;
+            text-align: right;
+            width: 120px;
+        }
+
+        .links-table td:last-child {
+            border-left: none;
+            text-align: left;
+        }
+
+        .links-table a {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+
+        .links-table a:hover {
+            color: #80c7ff;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }
+
+            .links-table td:first-child {
+                width: 100px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>emrəren</h1>
+        
+        <div class="profile-image">
+            Your photo here
+        </div>
+        
+        <p class="intro">Hello, web-surfer! I am Emre EREN and this is my webpage.</p>
+
+        <div class="links-section">
+            <h2 class="links-title">Check these out:</h2>
+            
+            <table class="links-table">
+                <tr>
+                    <td>LinkedIn</td>
+                    <td><a href="https://www.linkedin.com/in/emr-ren/" target="_blank">Professional network</a></td>
+                </tr>
+                <tr>
+                    <td>GitHub</td>
+                    <td><a href="https://github.com/emreren" target="_blank">My GitHub profile</a></td>
+                </tr>
+                <tr>
+                    <td>Roadmap</td>
+                    <td><a href="https://roadmap.sh/u/emreren" target="_blank">Learning journey</a></td>
+                </tr>
+                <tr>
+                    <td>Mastodon</td>
+                    <td><a href="https://mastodon.social/@emreren" target="_blank">Social media</a></td>
+                </tr>
+                <tr>
+                    <td>Bento</td>
+                    <td><a href="https://bento.me/emreren" target="_blank">Movies, books and more</a></td>
+                </tr>
+
+                <tr>
+                    <td>Matrix</td>
+                    <td><a href="https://matrix.to/#/@emreren:matrix.org" target="_blank">@emreren:matrix.org</a></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:emreeren@tutamail.com">emreeren@tutamail.com</a></td>
+                </tr>
+                <tr>
+                    <td>PGP Key</td>
+                    <td><a href="https://keys.openpgp.org/vks/v1/by-fingerprint/8B8E44E22AAE1F30581D556A80FFAB88D8F6C47D" target="_blank">Public key</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
